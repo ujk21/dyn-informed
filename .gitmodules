@@ -1,0 +1,3 @@
+[submodule "genie"]
+	path = genie
+	url = https://github.com/aqlaboratory/genie.git

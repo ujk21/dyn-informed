@@ -1,0 +1,15 @@
+name: dinf-env
+channels:
+  - defaults
+  - nvidia
+  - pytorch
+  - bioconda
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch::pytorch=2.1
+  - pyg::pyg
+  - pip
+  - pip:
+      - -r prod.txt

@@ -1,0 +1,24 @@
+# Production requirements - the absolute minimum to be able to run the code
+--find-links https://data.pyg.org/whl/torch-2.1.0+cu121.html
+
+tqdm                # progress bars
+
+# Standard ML tools
+pandas              # dataframe tools
+matplotlib          # plotting tools
+seaborn             # plotting tools
+scikit-learn        # standard ML algorithms
+pytorch-lightning   # lightning model training tools
+torch_geometric==2.2.0
+pyg_lib
+torch_scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
+
+# ML 
+einops              # for einsum-like operations on tensors
+jaxtyping           # for type annotations (also works with PyTorch)
+
+# Bio tools
+biotite
